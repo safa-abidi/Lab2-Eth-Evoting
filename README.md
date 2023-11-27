@@ -101,7 +101,7 @@ truffle migrate
 ![Migration](/screenshots/migration2.png "Migration")
 
 After the migration is done we can see the created blocks in ganache :
-![Migration](/screenshots/ganache_after_migration1.png.png "Migration")
+![Migration](/screenshots/ganache_after_migration1.png "Migration")
 Those are the transactions :
 ![Migration](/screenshots/ganache_after_migration2.png "Migration")
 And the contracts :
@@ -140,6 +140,7 @@ When clicking on 'vote' button, MetaMask shows this popup to confirm the transac
 ![Transaction](/screenshots/transaction.png "Transaction")
 </br>
 After confirming, we can see that the transaction is now pending :
+</br>
 ![Pending Transaction](/screenshots/transaction2.png "Pending Transaction")
 </br>
 It might take some time before the transaction is made. 
