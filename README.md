@@ -107,6 +107,9 @@ Those are the transactions :
 And the contracts :
 ![Migration](/screenshots/ganache_after_migration3.png "Migration")
 
+We can interact with our smart contract as following :
+![Smart Contract](/screenshots/smart_contract_details.png "Smart Contract")
+
 #### C- Testing
 So we create a file named [election.js](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/test/election.js) in test folder <br/>
 
