@@ -18,7 +18,7 @@ The project contains these sections:<br/>
 &ensp;&ensp;[D- User Interface](https://github.com/safa-abidi/Lab2-Eth-Evoting#d--user-interface)<br/>
 &ensp;&ensp;[E- MetaMask](https://github.com/safa-abidi/Lab2-Eth-Evoting#e--metamask)<br/>
 &ensp;&ensp;[F- Testing the Evoting Application](https://github.com/safa-abidi/Lab2-Eth-Evoting#f--testing-the-evoting-application)<br/>
-&ensp;&ensp;[G- Adding Candidates (4)](https://github.com/safa-abidi/Lab2-Eth-Evoting#g--adding)<br/>
+&ensp;&ensp;[G- More Candidates (4)](https://github.com/safa-abidi/Lab2-Eth-Evoting#g--adding-candidates-4)<br/>
 
 <br/>
 
@@ -138,7 +138,23 @@ The next step is connecting Ganache in MetaMask
 ![Vote](/screenshots/vote_succes_2c.png "Vote")
 ![Transaction](/screenshots/transaction_success_2c.png "Transaction")
 
-#### G- Adding Candidates (4)
+#### G- More Candidates (4)
+In order to add more candidates in our vote we just have to modify the constructor code in the 'Election.sol' Smart Contract to add as much candidates as we want :
+```
+constructor () public {
+    addCandidate ("Candidate 1");
+    addCandidate ("Candidate 2");
+    addCandidate ("Candidate 3");
+    addCandidate ("Candidate 4");
+}
+```
+
+Now we use this command to launch the migration
+```
+truffle migrate --reset
+```
+After that, we can see that now we have 4 candidates :
 ![User Interface](/screenshots/user_interface_4c.png "User Interface")
+
 ![Vote](/screenshots/vote_success_4c.png "Vote")
 
