@@ -26,7 +26,7 @@ The project contains these sections:<br/>
 In this project we will be building a voting DApp.
 We are going to use Truffle Framework, Ganache (a local blockchain simulator) and MetaMask (a wallet).
 We will also need NPM which come with Node.js. </br>
-![Node Version](/screenshots/node_version.png "Node Version")
+![Node Version](/screenshots/node_version.png "Node Version")<br/>
 
 ## II- Implementation
 ### 1- Set Up
@@ -97,18 +97,18 @@ Now we need to launch Ganache and then run the migrations :
 ```
 truffle migrate
 ```
-![Migration](/screenshots/migration1.png "Migration")
-![Migration](/screenshots/migration2.png "Migration")
+![Migration](/screenshots/migration1.png "Migration")<br/>
+![Migration](/screenshots/migration2.png "Migration")<br/>
 
 After the migration is done we can see the created blocks in ganache :
-![Migration](/screenshots/ganache_after_migration1.png "Migration")
+![Migration](/screenshots/ganache_after_migration1.png "Migration")<br/>
 Those are the transactions :
-![Migration](/screenshots/ganache_after_migration2.png "Migration")
+![Migration](/screenshots/ganache_after_migration2.png "Migration")<br/>
 And the contracts :
-![Migration](/screenshots/ganache_after_migration3.png "Migration")
+![Migration](/screenshots/ganache_after_migration3.png "Migration")<br/>
 
 We can interact with our smart contract as following :
-![Smart Contract](/screenshots/smart_contract_details.png "Smart Contract")
+![Smart Contract](/screenshots/smart_contract_details.png "Smart Contract")<br/>
 
 #### C- Testing
 So we create a file named [election.js](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/test/election.js) in test folder <br/>
@@ -117,7 +117,7 @@ To run the test we use this truffle command :
 ```
 truffle test
 ```
-![Test](/screenshots/test2.png "Test")
+![Test](/screenshots/test2.png "Test") <br/>
 
 #### D- User Interface
 To create the UI of our application we need to change the code in [index.html](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/src/index.htmls) file in src/ directory
@@ -128,29 +128,25 @@ Finally we run this command to start the server :
 ```
 npm run dev
 ```
-![User Interface](/screenshots/user_interface_2c.png "User Interface")
+![User Interface](/screenshots/user_interface_2c.png "User Interface") <br/>
 
 We can see that the application is displaying 'Your Account: null' and that's because we need to connect MetaMask and Ganache.
 
 #### E- MetaMask
 The next step is connecting Ganache in MetaMask :
-![MetaMask](/screenshots/metamsk_account.png "MetaMask")
+![MetaMask](/screenshots/metamsk_account.png "MetaMask") <br/>
 
 #### F- Testing the Evoting Application
 After the connection is made, we now able to choose a candidate to vote :
-![Voting](/screenshots/vote_screen.png "Voting")
-</br>
+![Voting](/screenshots/vote_screen.png "Voting") </br>
 When clicking on 'vote' button, MetaMask shows this popup to confirm the transaction :
-![Transaction](/screenshots/transaction.png "Transaction")
-</br>
-After confirming, we can see that the transaction is now pending :
-</br>
-![Pending Transaction](/screenshots/transaction2.png "Pending Transaction")
-</br>
-It might take some time before the transaction is made. 
+![Transaction](/screenshots/transaction.png "Transaction") </br>
+After confirming, we can see that the transaction is now pending : </br>
+![Pending Transaction](/screenshots/transaction2.png "Pending Transaction") </br>
+It might take some time before the transaction is made. <br/>
 Our vote is now casted :
-![Vote](/screenshots/vote_succes_2c.png "Vote")
-![Transaction](/screenshots/transaction_success_2c.png "Transaction")
+![Vote](/screenshots/vote_succes_2c.png "Vote") <br/>
+![Transaction](/screenshots/transaction_success_2c.png "Transaction") <br/>
 
 #### G- More Candidates (4)
 In order to add more candidates in our vote we just have to modify the constructor code in the 'Election.sol' Smart Contract to add as much candidates as we want :
@@ -168,8 +164,7 @@ Now we use this command to launch the migration
 truffle migrate --reset
 ```
 After that, we can see that now we have 4 candidates :
-![User Interface](/screenshots/user_interface_4c.png "User Interface")
-</br>
+![User Interface](/screenshots/user_interface_4c.png "User Interface") <br/>
 Here we voted for the first candidate :
-![Vote](/screenshots/vote_success_4c.png "Vote")
+![Vote](/screenshots/vote_success_4c.png "Vote") <br/>
 
