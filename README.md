@@ -127,14 +127,21 @@ npm run dev
 ```
 ![User Interface](/screenshots/user_interface_2c.png "User Interface")
 
+We can see that the application is displaying 'Your Account: null' and that's because we need to connect MetaMask and Ganache.
+
 #### E- MetaMask
-The next step is connecting Ganache in MetaMask
+The next step is connecting Ganache in MetaMask :
 ![MetaMask](/screenshots/metamsk_account.png "MetaMask")
 
 #### F- Testing the Evoting Application
+After the connection is made, we now able to choose a candidate to vote :
 ![Voting](/screenshots/vote_screen.png "Voting")
+When clicking on 'vote' button, MetaMask shows this popup to confirm the transaction :
 ![Transaction](/screenshots/transaction.png "Transaction")
-![Transaction](/screenshots/transaction2.png "Transaction")
+After confirming, we can see that the transaction is now pending :
+![Pending Transaction](/screenshots/transaction2.png "Pending Transaction")
+It might take some time before the transaction is made. 
+Our vote is now casted :
 ![Vote](/screenshots/vote_succes_2c.png "Vote")
 ![Transaction](/screenshots/transaction_success_2c.png "Transaction")
 
