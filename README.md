@@ -18,12 +18,15 @@ The project contains these sections:<br/>
 &ensp;&ensp;[D- User Interface](https://github.com/safa-abidi/Lab2-Eth-Evoting#d--user-interface)<br/>
 &ensp;&ensp;[E- MetaMask](https://github.com/safa-abidi/Lab2-Eth-Evoting#e--metamask)<br/>
 &ensp;&ensp;[F- Testing the Evoting Application](https://github.com/safa-abidi/Lab2-Eth-Evoting#f--testing-the-evoting-application)<br/>
+&ensp;&ensp;[G- Adding Candidates (4)](https://github.com/safa-abidi/Lab2-Eth-Evoting#g--adding)<br/>
 
 <br/>
 
 ## I-Introduction
 In this project we will be building a voting DApp.
 We are going to use Truffle Framework, Ganache (a local blockchain simulator) and MetaMask (a wallet).
+We will also need NPM which come with Node.js. </br>
+![Node Version](/screenshots/node_version.png "Node Version")
 
 ## II- Implementation
 ### 1- Set Up
@@ -94,6 +97,15 @@ Now we need to launch Ganache and then run the migrations :
 ```
 truffle migrate
 ```
+![Migration](/screenshots/migration1.png "Migration")
+![Migration](/screenshots/migration2.png "Migration")
+
+After the migration is done we can see the created blocks in ganache :
+![Migration](/screenshots/ganache_after_migration1.png.png "Migration")
+Those are the transactions :
+![Migration](/screenshots/ganache_after_migration2.png "Migration")
+And the contracts :
+![Migration](/screenshots/ganache_after_migration3.png "Migration")
 
 #### C- Testing
 So we create a file named [election.js](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/test/election.js) in test folder <br/>
@@ -102,6 +114,7 @@ To run the test we use this truffle command :
 ```
 truffle test
 ```
+![Test](/screenshots/test2.png "Test")
 
 #### D- User Interface
 To create the UI of our application we need to change the code in [index.html](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/src/index.htmls) file in src/ directory
@@ -112,8 +125,20 @@ Finally we run this command to start the server :
 ```
 npm run dev
 ```
+![User Interface](/screenshots/user_interface_2c.png "User Interface")
 
 #### E- MetaMask
 The next step is connecting Ganache in MetaMask
+![MetaMask](/screenshots/metamsk_account.png "MetaMask")
 
 #### F- Testing the Evoting Application
+![Voting](/screenshots/vote_screen.png "Voting")
+![Transaction](/screenshots/transaction.png "Transaction")
+![Transaction](/screenshots/transaction2.png "Transaction")
+![Vote](/screenshots/vote_succes_2c.png "Vote")
+![Transaction](/screenshots/transaction_success_2c.png "Transaction")
+
+#### G- Adding Candidates (4)
+![User Interface](/screenshots/user_interface_4c.png "User Interface")
+![Vote](/screenshots/vote_success_4c.png "Vote")
+
