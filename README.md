@@ -138,8 +138,10 @@ After the connection is made, we now able to choose a candidate to vote :
 ![Voting](/screenshots/vote_screen.png "Voting")
 When clicking on 'vote' button, MetaMask shows this popup to confirm the transaction :
 ![Transaction](/screenshots/transaction.png "Transaction")
+</br>
 After confirming, we can see that the transaction is now pending :
 ![Pending Transaction](/screenshots/transaction2.png "Pending Transaction")
+</br>
 It might take some time before the transaction is made. 
 Our vote is now casted :
 ![Vote](/screenshots/vote_succes_2c.png "Vote")
@@ -162,6 +164,6 @@ truffle migrate --reset
 ```
 After that, we can see that now we have 4 candidates :
 ![User Interface](/screenshots/user_interface_4c.png "User Interface")
-
+Here we voted for the first candidate :
 ![Vote](/screenshots/vote_success_4c.png "Vote")
 
