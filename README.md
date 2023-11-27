@@ -14,11 +14,16 @@ The project contains these sections:<br/>
 &ensp;[2- Project Implementation](https://github.com/safa-abidi/Lab2-Eth-Evoting#2--project-implementation)<br/>
 &ensp;&ensp;[A- Smart Contract](https://github.com/safa-abidi/Lab2-Eth-Evoting#a--smart-contract)<br/>
 &ensp;&ensp;[B- Migration](https://github.com/safa-abidi/Lab2-Eth-Evoting#b--migration)<br/>
+&ensp;&ensp;[C- Testing](https://github.com/safa-abidi/Lab2-Eth-Evoting#c--testing)<br/>
+&ensp;&ensp;[D- User Interface](https://github.com/safa-abidi/Lab2-Eth-Evoting#d--user-interface)<br/>
+&ensp;&ensp;[E- MetaMask](https://github.com/safa-abidi/Lab2-Eth-Evoting#e--metamask)<br/>
+&ensp;&ensp;[F- Testing the Evoting Application](https://github.com/safa-abidi/Lab2-Eth-Evoting#f--testing-the-evoting-application)<br/>
+
 <br/>
 
 ## I-Introduction
 In this project we will be building a voting DApp.
-We are going to use Truffle Framework, Ganache (a local blockchain simulator) and Metamask (a wallet).
+We are going to use Truffle Framework, Ganache (a local blockchain simulator) and MetaMask (a wallet).
 
 ## II- Implementation
 ### 1- Set Up
@@ -109,6 +114,6 @@ npm run dev
 ```
 
 #### E- MetaMask
-The next step is connecting Ganache in Metamask
+The next step is connecting Ganache in MetaMask
 
 #### F- Testing the Evoting Application
