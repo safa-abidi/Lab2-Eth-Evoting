@@ -120,7 +120,7 @@ truffle test
 ![Test](/screenshots/test2.png "Test") <br/>
 
 #### D- User Interface
-To create the UI of our application we need to change the code in [index.html](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/src/index.htmls) file in src/ directory
+To create the UI of our application we need to change the code in [index.html](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/src/index.html) file in src/ directory
 
 and then replace the code in [app.js](https://github.com/safa-abidi/Lab2-Eth-Evoting/blob/main/src/js/app.js) file located in the src/js directory
 
