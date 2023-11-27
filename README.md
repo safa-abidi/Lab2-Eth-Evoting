@@ -136,6 +136,7 @@ The next step is connecting Ganache in MetaMask :
 #### F- Testing the Evoting Application
 After the connection is made, we now able to choose a candidate to vote :
 ![Voting](/screenshots/vote_screen.png "Voting")
+</br>
 When clicking on 'vote' button, MetaMask shows this popup to confirm the transaction :
 ![Transaction](/screenshots/transaction.png "Transaction")
 </br>
@@ -165,6 +166,7 @@ truffle migrate --reset
 ```
 After that, we can see that now we have 4 candidates :
 ![User Interface](/screenshots/user_interface_4c.png "User Interface")
+</br>
 Here we voted for the first candidate :
 ![Vote](/screenshots/vote_success_4c.png "Vote")
 
